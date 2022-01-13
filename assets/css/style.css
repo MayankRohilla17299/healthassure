@@ -1,0 +1,273 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.page-wrapper {
+	width: 90%;
+}
+
+.btn.btn-custom {
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 8px 15px;
+	box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.11);
+	box-shadow: 5px 5px 10px rgba(30, 30, 30, 0.11);
+}
+
+/* NAVBAR */
+
+.navbar .nav-logo {
+	height: 55px;
+}
+
+/* HERO SECTION  */
+
+.hero-section {
+	padding-top: 50px;
+	background: url('../images/Hero-section-bg.png');
+	background-position: bottom bottom;
+	background-size: cover;
+    color: #1a374d;
+}
+
+.hero-section .hero-img {
+	width: 60%;
+}
+
+.hero-section .sub-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.hero-section .heading {
+	font-size: 100px;
+}
+
+.hero-section .icon {
+	margin-right: 10px;
+}
+
+.hero-section .big-text {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	margin-right: 10px;
+}
+
+/* KEY FEATURES  */
+.key-features {
+	background-color: #1a374d;
+	padding: 30px 0;
+}
+
+.key-features .feat-card {
+	border: none;
+	padding: 20px;
+	background-color: #1a374d;
+	/* box-shadow: -5px -5px 10px #ffffff27; */
+	box-shadow: 5px 5px 10px #05131f71;
+}
+
+.key-features .feat-card .heading {
+	color: #6998ab;
+	font-size: 25px;
+}
+
+.key-features .feat-card .card-img {
+	width: 80%;
+}
+
+/* SERVICS  */
+
+.services {
+	padding: 50px 0;
+	background-color: #b1d0e0;
+}
+
+.services .heading {
+	font-size: 40px;
+	color: #1a374d;
+}
+
+.services .content {
+	color: #1a374d;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.services .serv-card {
+	border: none;
+	background-color: #1a374d;
+	padding: 15px;
+	color: #b1d0e0;
+}
+
+.services .serv-card .icon {
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.services .serv-card .card-heading {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.services .serv-card .serv-highlight {
+	font-size: 18px;
+	font-weight: 600;
+	color: #6998ab;
+	margin-bottom: 10px;
+}
+
+.services .serv-card .serv-content {
+	margin-bottom: 0;
+}
+
+/* VIDEO SECTION  */
+.video-section {
+	padding: 60px 0;
+	background-color: #6998ab;
+	color: #b1d0e0;
+}
+
+.video-section .heading {
+	color: #1a374d;
+}
+
+/* TESTIMONIAL  */
+
+.testimonial-section {
+	padding: 50px;
+	background-color: #b1d0e0;
+	position: relative;
+}
+
+.testimonial-section .quote {
+	position: absolute;
+	height: 100px;
+	top: 0;
+	transform: translateY(-50%);
+}
+
+.testimonial-section .content {
+	font-size: 20px;
+	color: #1a374d;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.testimonial-section .heading {
+	text-align: center;
+	color: #1a374d;
+	margin-bottom: 30px;
+}
+
+.testimonial-section .test-card {
+	background-color: #1a374d;
+	color: #b1d0e0;
+	padding: 15px;
+}
+
+.testimonial-section .test-card .author {
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.testimonial-section .test-card .rating {
+	color: #b1d0e0;
+	font-size: 20px;
+}
+
+/* CLIENTEL  */
+
+.clientel{
+    padding: 40px;
+    background-color: #1a374d;
+}
+
+.clientel .heading{
+    text-align: center;
+    color: #b1d0e0;
+    margin-bottom: 30px;
+}
+
+/* FORM  */
+
+.contact-us{
+    padding: 40px 0 0;
+    background: url('../images/form-bg.png') ;
+}
+
+.contact-us .form-img{
+    width: 70%;
+}
+
+.contact-us .form-block{
+    border: none;
+    padding: 20px;
+    background-color: #1a374d;
+    color: #b1d0e0;
+}
+
+.contact-us .form-block .heading{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact-us .form-block .content{
+    text-align: center;
+}
+
+.contact-us .form-block .custom-input{
+    margin-bottom: 20px;
+    border: none;
+    background-color: #6998ab;
+}
+
+.contact-us .form-block .custom-input::placeholder{
+    color: #b1d0e0;
+    font-weight: 600;
+}
+
+.contact-us .form-block .btn-custom{
+    color: #1a374d;
+    background-color: #b1d0e0;
+    width: 100%;
+    box-shadow: none;
+    font-weight: 700;
+}
+
+/* FOOTER  */
+
+.footer{
+    background-color: #1a374d;
+    padding: 20px 0;
+}
+
+.footer .footer-img{
+    filter: contrast(0) brightness(100);
+    height: 80px;
+}
+
+.footer .content{
+    color: #b1d0e0;
+}
+
+.footer .icon{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #b1d0e0;
+}
